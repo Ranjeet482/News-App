@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - ImageSlideshow/Alamofire (1.6.1):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.6.1)
+  - MaterialComponents/Availability (112.1.0)
+  - MaterialComponents/BottomSheet (112.1.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+  - "MaterialComponents/BottomSheet+ShapeThemer (112.1.0)":
+    - MaterialComponents/BottomSheet
+    - MaterialComponents/schemes/Shape
+  - MaterialComponents/Elevation (112.1.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (112.1.0)
+  - MaterialComponents/private/Color (112.1.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/KeyboardWatcher (112.1.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (112.1.0)
+  - MaterialComponents/schemes/Shape (112.1.0):
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+  - MaterialComponents/ShadowElevations (112.1.0)
+  - MaterialComponents/ShadowLayer (112.1.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (112.1.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (112.1.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MXParallaxHeader (0.6.1)
+  - ObjectMapper (3.3.0)
+  - OneSignal (2.8.9)
+  - PagingMenuController (2.2.0)
+  - SlideMenuControllerSwift (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ImageSlideshow/Alamofire
+  - "MaterialComponents/BottomSheet+ShapeThemer"
+  - MXParallaxHeader
+  - ObjectMapper (~> 3.3)
+  - OneSignal (< 3.0, >= 2.6.2)
+  - PagingMenuController
+  - SlideMenuControllerSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - ImageSlideshow
+    - MXParallaxHeader
+    - ObjectMapper
+    - OneSignal
+    - PagingMenuController
+    - SlideMenuControllerSwift
+  trunk:
+    - MaterialComponents
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  ImageSlideshow: f0f33e1a20668e83d77f5fb7729e4ae4437c0759
+  MaterialComponents: ba54523b921faa5c2adaaa692048c6b95a09263d
+  MXParallaxHeader: 858c403532ed933b381556a81ce333d7065ad182
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  OneSignal: 0fb3522620d392195ed8e90e4e96717c6085df45
+  PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
+
+PODFILE CHECKSUM: 498a41753d495f35b8d6d524e0bada213f457cda
+
+COCOAPODS: 1.9.1
